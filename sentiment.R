@@ -12,7 +12,7 @@ library(syuzhet)
 library(dplyr ) 
 
 #get the data from whatsapp chat 
-text <- readLines("C:/Users/Nivi/Documents/Sentiment Analysis/Sandeep.txt")
+text <- readLines("chat.txt")
 
 #create the corpus
 docs <- Corpus(VectorSource(text))
